@@ -1,5 +1,8 @@
 ---
+# all apps use these settings and services
+domain: mybluemix.net
+memory: 256M
+instances: 1
 applications:
- - name: GetStartedNode
-   random-route: true
-   memory: 256M
+- name: CRM Alpha Test Build
+  host: crmalpha
